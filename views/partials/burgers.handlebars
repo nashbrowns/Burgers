@@ -2,13 +2,13 @@
 	<h3>{{burger_name}}</h3>
 
 	<div class="row">
+		{{#unless devoured}}
 		<div class="col">
-			{{#unless devoured}}
 			<button class="btn btn-primary change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}">
 				Devour
 			</button>
-			{{/unless}}
 		</div>
+		{{/unless}}
 		<div class="col">
 			<button class="btn btn-primary delete-burger" data-id="{{this.id}}">Remove</button>
 		</div>
