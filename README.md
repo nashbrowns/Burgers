@@ -32,3 +32,7 @@ Eat-Da-Burger was an exercise in utilizing the [MVC](https://www.tutorialspoint.
     <code>http://localhost:8080</code>
 
     and hit enter.
+
+    Visit the deployed version here:
+
+    https://aqueous-dusk-48426.herokuapp.com/
